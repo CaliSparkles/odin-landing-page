@@ -1,7 +1,14 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
 .header, .footer, .welcome {
     background-color: #1F2937;
     font-size: 18px;
     color: #E5E7EB;
+    font-family: "Lucida Console", "Courier New", monospace;
 }
 
 .header .logo {
@@ -35,3 +42,18 @@ button, .sign-up {
     font-weight: 100;
     font-style: italic;
 }
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: auto;
+    padding: 0 32px;
+}
+
+.links {
+    list-style: none;
+    display: flex;
+    gap: 32px;
+}
+
