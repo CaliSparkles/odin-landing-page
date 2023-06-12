@@ -39,8 +39,8 @@ button, .sign-up {
     color: #1F2937;
 }
 
-.quote-text {
-    font-size: 36px;
+ .quote-text {
+    font-size: 28px;
     font-weight: 100;
     font-style: italic;
 }
@@ -99,6 +99,26 @@ button, .sign-up {
     height: 200px;
     border: 4px solid #3882F6;
     border-radius: 25px;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    padding: 62px;
+    gap: 32px;
+}
+
+.quote-text {
+    align-self: center;
+    width: 1000px;
+    text-align:center;
+}
+
+.quote-author {
+    align-self: flex-end;
+    width: 700px;
+    font-size: 26px;
+    font-weight: bold;
 }
 
 .footer {
