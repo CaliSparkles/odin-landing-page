@@ -61,7 +61,7 @@ button, .sign-up {
     display: flex;
 }
 
-.welcome-image {
+.welcome img {
     width: 500px;
     height: 350px;
 }
