@@ -57,6 +57,20 @@ button, .sign-up {
     gap: 32px;
 }
 
+.welcome {
+    display: flex;
+}
+
+.welcome-image {
+    width: 500px;
+    height: 350px;
+}
+
+.cards img {
+    width: 200px;
+    height: 200px;
+}
+
 .footer {
     display: flex;
     justify-content: center;
@@ -64,3 +78,4 @@ button, .sign-up {
     margin-top: auto;
     padding: 32px;
 }
+
