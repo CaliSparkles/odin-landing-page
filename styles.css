@@ -129,3 +129,32 @@ button, .sign-up {
     padding: 32px;
 }
 
+.sign-up {
+    display: flex;
+    flex-direction: column;
+    margin: 82px;
+    padding: 52px;
+    border-radius: 10px;
+    color: white;
+    justify-content: center;
+}
+
+.sign-up-header {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.sign-up-button {
+    align-self: flex-end;
+}
+
+.sign-up-button button {
+    color: white;
+    font-weight: bold;
+    padding: 8px;
+    border: 2px solid white;
+    border-radius: 8px;
+    background-color: #3882F6;
+    text-decoration: none;
+    cursor: pointer;
+}
