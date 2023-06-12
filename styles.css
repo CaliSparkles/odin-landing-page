@@ -11,12 +11,12 @@ body {
     font-family: "Lucida Console", "Courier New", monospace;
 }
 
-.header .logo {
+.logo {
     font-size: 24px;
     color: #F9FAF8;
 }
 
-.welcome .welcome-title {
+.welcome-title {
     font-size: 48px;
     font-weight: bolder;
     color: #F9FAF8;
@@ -24,6 +24,11 @@ body {
 
 button, .sign-up {
     background-color: #3882F6;
+
+}
+
+.welcome-button {
+    border:none
 }
 
 .info-title {
@@ -70,7 +75,7 @@ button, .sign-up {
     margin-bottom: 72px;
 }
 
-.welcome .welcome-image {
+.welcome-image {
     align-self: flex-end;
     margin-left: 32px;
 }
@@ -78,6 +83,18 @@ button, .sign-up {
 .welcome img {
     width: 500px;
     height: 350px;
+}
+
+#top-button {
+    color: white;
+    font-weight: bold;
+    padding: 8px;
+    border: 2px solid #1F2937;
+    border-radius: 8px;
+    background-color: #3882F6;
+    text-decoration: none;
+    cursor: pointer;
+    width: 150px;
 }
 
 .info {
@@ -89,7 +106,7 @@ button, .sign-up {
     text-align: center;
 }
 
-.cards .text {
+.cards, .text {
     text-align: center;
     width: 200px;
 }
@@ -145,10 +162,10 @@ button, .sign-up {
 }
 
 .sign-up-button {
-    align-self: flex-end;
+   align-self: flex-end;
 }
 
-.sign-up-button button {
+#bottom-button {
     color: white;
     font-weight: bold;
     padding: 8px;
@@ -157,4 +174,5 @@ button, .sign-up {
     background-color: #3882F6;
     text-decoration: none;
     cursor: pointer;
+    width: 150px;
 }
