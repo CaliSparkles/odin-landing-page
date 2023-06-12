@@ -57,3 +57,10 @@ button, .sign-up {
     gap: 32px;
 }
 
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: auto;
+    padding: 32px;
+}
