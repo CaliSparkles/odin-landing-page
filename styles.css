@@ -59,6 +59,17 @@ button, .sign-up {
 
 .welcome {
     display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    padding-top: 52px;
+    text-align: left;
+}
+
+.welcome .welcome-image {
+    align-self: flex-end;
+    margin-left: 32px;
 }
 
 .welcome img {
