@@ -66,16 +66,23 @@ button, .sign-up {
 
 .welcome {
     display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-content: center;
+    align-items: center;
     justify-content: center;
-    padding-top: 52px;
-    text-align: left;
-    margin-bottom: 72px;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    gap: 120px;
 }
 
-.welcome-image {
+.welcome-left {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 820px;
+    text-align: left;
+    margin-right: 50px;
+    gap: 12px;
+}
+
+.welcome-right {
     align-self: flex-end;
     margin-left: 32px;
 }
@@ -85,11 +92,14 @@ button, .sign-up {
     height: 350px;
 }
 
+
 #top-button {
+    display: block;
+    text-align: center;
     color: white;
     font-weight: bold;
     padding: 8px;
-    border: 2px solid #1F2937;
+    border: none;
     border-radius: 8px;
     background-color: #3882F6;
     text-decoration: none;
@@ -148,12 +158,20 @@ button, .sign-up {
 
 .sign-up {
     display: flex;
-    flex-direction: column;
     margin: 82px;
     padding: 52px;
     border-radius: 10px;
     color: white;
+    align-items: center;
     justify-content: center;
+}
+
+
+.bottom-left {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 820px;
+    text-align: left;
 }
 
 .sign-up-header {
@@ -161,9 +179,6 @@ button, .sign-up {
     font-weight: bold;
 }
 
-.sign-up-button {
-   align-self: flex-end;
-}
 
 #bottom-button {
     color: white;
@@ -172,6 +187,7 @@ button, .sign-up {
     border: 2px solid white;
     border-radius: 8px;
     background-color: #3882F6;
+    text-align: center;
     text-decoration: none;
     cursor: pointer;
     width: 150px;
